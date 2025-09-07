@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PyTorch / HuggingFace / Transformers cache
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+*.pt
+*.pth
+cache/
+checkpoint/
+checkpoints/
+logs/
+outputs/
+
+# Hugging Face hub cache (large model files)
+huggingface/
+.huggingface/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
